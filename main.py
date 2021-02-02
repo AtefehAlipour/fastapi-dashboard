@@ -9,7 +9,7 @@ from pydantic import BaseModel
 from starlette import status
 from jose import jwt
 
-app = FastAPI()
+# app = FastAPI()
 
 Base.metadata.create_all(bind=engine)
 
